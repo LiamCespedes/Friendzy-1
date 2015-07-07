@@ -6,6 +6,12 @@ $(document).ready(function () {
         timeout: 5000,
         maximumAge: 0
     };
+	
+	document.getElementById("button").onclick = function() {connect()};
+	function connect(IP){
+	var IP = document.getElementById("ipAddress").value;
+	console.log(IP);
+	}
 
     var socket = io.connect(IP, {
         'forceNew': true
