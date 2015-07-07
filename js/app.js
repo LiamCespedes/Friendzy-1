@@ -11,6 +11,7 @@ $(document).ready(function () {
 	function connect(IP){
 	var IP = document.getElementById("ipAddress").value;
 	console.log(IP);
+	return IP;
 	}
 
     var socket = io.connect(IP, {
