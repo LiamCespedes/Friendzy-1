@@ -1,5 +1,5 @@
 var socket;
-var IP = "http://localhost:3000";
+var IP = "http:localhost:3000";
 $(document).ready(function () {
     socket = io.connect(IP, {
         'forceNew': true
