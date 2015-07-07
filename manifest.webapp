@@ -1,0 +1,26 @@
+{
+  "version": "0.1.0",
+  "name": "Friendzy",
+  "description": "A basic app that allows you to locate your friends",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/Friendzy128.png",
+    "512": "/images/Friendzy512.png"
+  },
+  "developer": {
+    "name": "Finn C",
+    "url": "https://github.com/jelkner/Friendzy"
+  },
+  "type": "privileged",
+  "permissions": {
+    "geolocation": {
+      "description": "Used for getting the user's location"
+    },
+    "systemXHR": {
+      "description": "Necessary for fetching data from the LocateMe server"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ]
+}
